@@ -1,0 +1,42 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.NavBar {
+    position: relative;
+    background-color: #000;
+    grid-area: nav-bar;
+    min-height: 0;
+    z-index: 3;
+    background: linear-gradient(0deg, rgba(125,14,50,1) 0%, rgb(111, 6, 40) 30%);
+    padding: 1.5rem 1rem 1rem 1.2rem;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    width: auto;
+    margin-bottom: 2rem;
+}
+
+.logo-img{
+    width: 2.7rem;
+    height: 2.7rem;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Beats_Music_logo.svg/2045px-Beats_Music_logo.svg.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.logo-name {
+    font-size: 1.6rem;
+    margin-left: 0.3rem;
+    font-weight: 500;
+    color: var(--bright-font-color);
+}
+
+.navBar-button {
+    color: var(--dark-font-color);
+}
+

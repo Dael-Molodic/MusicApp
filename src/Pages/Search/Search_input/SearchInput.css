@@ -1,0 +1,41 @@
+.input-container {
+    min-width: 33%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    background-color: var(--bright-font-color);
+    border-radius: 1000px;
+}
+
+.input-container::before {
+    background-image: url('https://www.offidocs.com/images/magnifyingglassmagnificationfreevectorgraphiconpixabay.jpg');
+    background-size: 2vw 2vw;
+    display: inline-block;
+    width: 2vw; 
+    height: 2vw;
+    margin-left: 3%;
+    content:"";
+}
+
+
+.input-container input {
+    width: 83%;
+    height: 100%;
+    margin-left: 3%;
+    color: black;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 0.9rem;
+    border: none;
+}
+
+.input-container input::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    cursor: pointer;
+
+    height: 1.6vw;
+    width: 1.6vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("https://cdn-icons-png.flaticon.com/512/109/109602.png");
+}

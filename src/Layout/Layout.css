@@ -1,0 +1,18 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.layout-container {
+    position: relative;
+    display: grid;
+    grid-template-areas:
+        "nav-bar main-view"
+        "now-playing-bar now-playing-bar";
+    grid-template-columns: auto 84%;
+    grid-template-rows: auto 10%;
+    height: 100%;
+    width: 100%;
+    min-height: 100%;
+}

@@ -1,0 +1,33 @@
+.buttoms-container .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4.3rem;
+    height: 75%;
+    margin: 0.4vw;
+    border-radius: 1000px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.buttoms-container .button.Log-in {
+    width: 7rem;
+    color: black;
+    background-color: var(--bright-font-color);
+    margin: 1.2vw 0vw 1.2vw 1.2vw;
+    transition: all 0.4s;
+}
+
+.buttoms-container .button.Sing-up {
+    color: var(--dark-font-color);
+    transition: all 0.4s;
+}
+
+.buttoms-container .button.Log-in:hover {
+    transform: scale(1.07);
+}
+
+.buttoms-container .button.Sing-up:hover {
+    transform: scale(1.07);
+    color: var(--bright-font-color);
+}

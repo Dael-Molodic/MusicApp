@@ -1,0 +1,35 @@
+.NavBar .button {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 1rem 0px 1rem 0px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.NavBar .button:hover > img {
+    transform: scale(1.09);
+}
+.NavBar .button:hover > .button-name {
+    color: var(--bright-font-color);
+}
+
+
+.NavBar .button img {
+    width: 17%;
+    background-size: contain;
+    transition: all 0.4s;
+}
+
+.NavBar .button .button-name {
+    margin-left: 0.85rem;
+    color: var(--dark-font-color);
+    font-size: 0.85rem;
+    font-weight: 600;
+    transition: all 0.4s;
+}
+
+.NavBar .active > .button-name {
+    color: var(--bright-font-color);
+    font-size: 0.94rem;
+}

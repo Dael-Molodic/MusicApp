@@ -1,0 +1,5 @@
+.songs-container {
+    padding: 1.8rem;
+    display: flex;
+    flex-wrap: wrap;
+}
