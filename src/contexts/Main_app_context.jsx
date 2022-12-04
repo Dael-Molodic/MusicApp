@@ -11,11 +11,15 @@ export function useMainAppContext() {
 export default function MainAppProvider({ children }) {
 
     const searchTxtState = useState("hoist the color");
+    const connectedUser = useState({});
+
+    const mainAppStates = {
+        searchTxtState,
+        connectedUser,
+    }
 
     return (<>
-        <mainAppContext.Provider value={{
-            searchTxtState,
-        }}>
+        <mainAppContext.Provider value={ mainAppStates }>
             {children}
         </mainAppContext.Provider>
     </>)

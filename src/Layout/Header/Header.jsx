@@ -1,7 +1,7 @@
 import { Navigate, Route, Routes } from "react-router-dom"
-import SearchInput from "../../Pages/Search/Search_input/SearchInput"
 import "./Header.css"
 import HeaderButton from "./HeaderButton/HeaderButton"
+import SearchInput from "./Search_input/SearchInput"
 
 function Header() {
   return (<>
@@ -10,8 +10,8 @@ function Header() {
         <Route path= "/Search" element= {<SearchInput />} />
       </Routes>
       <div className="buttoms-container">
-        <HeaderButton action= "Sing up"/>
-        <HeaderButton action= "Log in"/>
+        <HeaderButton action= "Sign_up"/>
+        <HeaderButton action= "Log_in"/>
       </div>
     </div>
   </>)

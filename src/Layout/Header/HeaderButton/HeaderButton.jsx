@@ -6,8 +6,8 @@ function HeaderButton( { action } ) {
   const navigate = useNavigate();
 
   return (
-    <div className={`${action.replace(" ", "-")} button`} onClick = {() => navigate("/Log in")}>
-      {action}
+    <div className={`${action} button`} onClick = {() => navigate(`/Conect/${action}`)}>
+      {action.replace("_", " ")}
     </div>
   )
 }

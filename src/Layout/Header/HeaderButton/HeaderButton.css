@@ -10,7 +10,7 @@
     cursor: pointer;
 }
 
-.buttoms-container .button.Log-in {
+.buttoms-container .button.Log_in {
     width: 7rem;
     color: black;
     background-color: var(--bright-font-color);
@@ -18,16 +18,16 @@
     transition: all 0.4s;
 }
 
-.buttoms-container .button.Sing-up {
+.buttoms-container .button.Sign_up {
     color: var(--dark-font-color);
     transition: all 0.4s;
 }
 
-.buttoms-container .button.Log-in:hover {
+.buttoms-container .button.Log_in:hover {
     transform: scale(1.07);
 }
 
-.buttoms-container .button.Sing-up:hover {
+.buttoms-container .button.Sign_up:hover {
     transform: scale(1.07);
     color: var(--bright-font-color);
 }

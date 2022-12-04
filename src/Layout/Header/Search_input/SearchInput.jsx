@@ -11,12 +11,10 @@ function SearchInput() {
     }
 
     return (<>
-      <div className="input-container">
+      <div className="input-search-container">
         <input type="search" onInput={(e) => UpdateSearch(e.target.value)} maxLength="800" autoCorrect="off" autoCapitalize="off" spellCheck="false" />
       </div>
     </>)
 }
 
 export default SearchInput
-
-// style="color: rgb(0, 0, 0);" value="" className="vvv" 

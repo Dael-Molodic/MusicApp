@@ -1,0 +1,29 @@
+
+
+.section-line {
+    width: 100%;
+    margin-top: 2rem;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.438);
+}
+
+.question-txt {
+    margin-top: 2rem;
+}
+
+.AnotherOptionButton {
+    width: 100%;
+    padding: 1rem 0px;
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-size: (1.2vw, 1rem);
+    font-weight: 600;
+    border: solid 2px rgba(0, 0, 0, 0.306);
+    border-radius: 1000px;
+}
+
+.AnotherOptionButton:hover {
+    border: solid 2px rgba(0, 0, 0, 0.669);
+}
